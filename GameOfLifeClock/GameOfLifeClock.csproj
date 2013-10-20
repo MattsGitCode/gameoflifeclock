@@ -16,11 +16,7 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
     <Content Include="default.htm" />
-    <Content Include="app.js">
-      <DependentUpon>Clock.ts</DependentUpon>
-    </Content>
     <Content Include="Display.js">
       <DependentUpon>Display.ts</DependentUpon>
     </Content>
