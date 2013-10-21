@@ -57,8 +57,8 @@ var GameOfLife = (function () {
 
     GameOfLife.prototype.getCellCentre = function (x, y) {
         return {
-            x: this.cellRadius + (2 * x * this.cellRadius) + ((x - 1) * this.cellSpacing),
-            y: this.cellRadius + (2 * y * this.cellRadius) + ((y - 1) * this.cellSpacing)
+            x: this.cellRadius + (2 * x * this.cellRadius) + (x * this.cellSpacing),
+            y: this.cellRadius + (2 * y * this.cellRadius) + (y * this.cellSpacing)
         };
     };
 
